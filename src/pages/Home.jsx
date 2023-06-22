@@ -30,7 +30,7 @@ function Home() {
   return (
     <div>
       <Header />
-      <div className="mt-10  mx-16 flex gap-2">
+      <div className="mt-10 mx-16 flex gap-2">
         <div className="w-full">
           <label  className="block mb-2 text-sm font-medium ">
             <strong>Add your todo</strong>

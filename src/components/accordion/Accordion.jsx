@@ -1,9 +1,10 @@
 import React from "react";
 import "react-circular-progressbar/dist/styles.css";
 import { CircularProgressbar } from "react-circular-progressbar";
-import deleteIcon from "../../assets/icons8-delete.svg";
 import { confirmAlert } from "react-confirm-alert"; // Import
 import "react-confirm-alert/src/react-confirm-alert.css"; // Import css
+
+import deleteIcon from "../../assets/icons8-delete.svg";
 import { removeTask } from "../../axios/axios";
 import arrow from "../../assets/icons8-arrow-50.png";
 import { toast } from "react-hot-toast";
