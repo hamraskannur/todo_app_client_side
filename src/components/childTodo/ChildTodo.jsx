@@ -24,6 +24,7 @@ const ChildTodo = ({ checkboxes, setCheckboxes, task }) => {
       subTaskId: id,
       checkedType:!checkedType
     });
+    
     if (response.status) {
       const updatedCheckboxes = checkboxes.map((checkbox) => {
         if (checkbox._id === id) {

@@ -8,7 +8,6 @@ function UserPublicRoute(props) {
     useEffect(() => {
         (async () => {
             const data = await Auth()
-            console.log(data);
             if (!data.status) {
                 localStorage.clear()
                 navigate('/login')
